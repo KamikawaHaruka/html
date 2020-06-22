@@ -1,0 +1,150 @@
+.main:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.container {
+    width: 920px;
+    margin: 20px auto 30px auto;
+}
+
+.header-title-area {
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+.logo {
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+.header-navigation {
+    width: 100%;
+    background-color: #333;
+}
+
+.header-navigation:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.header-navigation li {
+    float: left;
+    padding: 15px 25px;
+    list-style-type: none;
+}
+
+.header-navigation li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.card-contents {
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.left-contents {
+    width: 600px;
+    margin-right: 20px;
+    float: left;
+}
+
+.blog-card li {
+    list-style-type: none;
+}
+
+.blog-card li a {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 150px;
+    display: block;
+}
+
+.blog-image {
+    width: 130px;
+    height: 130px;
+    border: 5px solid #999;
+    float: left;
+    text-align: left;
+}
+
+.blog-card:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.blog-title {
+    font-size: 12px;
+    padding-left: 150px;
+}
+
+.blog-story {
+    font-size: 8px;
+    opacity: 0.7;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    line-height: 17px;
+}
+
+.right-contents {
+    width: 300px;
+    float: left;
+}
+
+.text-title {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    line-height: 10px;
+    font-weight: normal;
+}
+
+.text-list {
+    list-style-type: none;
+}
+
+.text-day {
+    font-size: 6px;
+    opacity: 0.7;
+    padding-left: 50px;
+}
+
+.text-list li a {
+    text-decoration: none;
+    font-size: 10px;
+    padding-top: 15px;
+    padding-left: 50px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.text-image {
+    border: 2px solid #999;
+    width: 30px;
+    height: 30px;
+    float: left;
+    text-align: left;
+}
+
+.text-list:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.copyright {
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #777;
+    padding: 25px 0 80px 0;
+    font-size: 12px;
+}
